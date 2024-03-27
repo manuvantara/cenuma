@@ -6,5 +6,5 @@ services:
     ports:
       - 27017:27017 # Map host port to container port
     environment: # Optional: Set environment variables for configuration
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_ROOT_USERNAME: myappadmin
+      MONGO_INITDB_ROOT_PASSWORD: myappadmin
