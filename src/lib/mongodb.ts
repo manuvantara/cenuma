@@ -8,6 +8,7 @@ if (!MONGODB_URI) {
 
 const uri = MONGODB_URI;
 const options = {
+  monitorCommands: true,
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
